@@ -3,13 +3,13 @@
 # 
 # I'm sure it is, though I don't know a lot of R. There are two ways you could do it:
 #   1) use the new REST/GraphQL/DocumentAPI API's
-# ??? 2) look around for an R package to directly connect to cassandra (these are often wrappers around the C or Java Driver)
+#   2) look around for an R package to directly connect to cassandra (these are often wrappers around the C or Java Driver)
 # 
 # I would recommend using the REST/etc API except in some very specific performance related use cases
 # Note: There is no way to connect RCassandra to Datastax, the C/C++ driver is needed. 
 
 #install.packages('inline')
-#install.packages('Rcpp')
+install.packages('Rcpp')
 library('inline')
 library('Rcpp')
 
