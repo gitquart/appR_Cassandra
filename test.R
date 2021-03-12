@@ -8,10 +8,13 @@
 # I would recommend using the REST/etc API except in some very specific performance related use cases
 # Note: There is no way to connect RCassandra to Datastax, the C/C++ driver is needed. 
 
-#install.packages('inline')
+
+install.packages('inline')
 install.packages('Rcpp')
+install.packages('rstan')
 library('inline')
 library('Rcpp')
+library('rstan')
 
 ### # start with pure C/C++ function and assign the source code to
 ### #  a variable which we call here includesrc
