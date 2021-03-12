@@ -1,6 +1,7 @@
 library('inline')
 library('Rcpp')
 
+
 ### # start with pure C/C++ function and assign the source code to
 ### #  a variable which we call here includesrc
 includesrc <- '
